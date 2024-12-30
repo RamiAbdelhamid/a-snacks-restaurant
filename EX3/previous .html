@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+
+
+        var Name = (prompt("Enter your name :"));
+        var gender = (prompt("Enter your gender :"));
+
+
+        genderone(gender);
+
+
+
+        var order = (prompt("Enter your order shawarma, zinger, or burger ? :"));
+
+
+
+        (alert(`your order is being prepared `));
+
+
+        console.log(Name, order)
+
+
+
+
+
+        // array
+          const user = [Name , gender , order];
+
+
+        // Loop through the array using a for loop
+        for (let i = 0; i < user.length; i++) {
+            console.log(user[i]);
+        }
+
+
+
+
+        function genderone(m) {
+
+
+            if (m === "male") {
+                (alert(`Welcome Mr.` + Name));
+
+            }
+            else if (m === "female") {
+                (alert(`Welcome Ms.` + Name));
+            }
+
+            else {
+                (alert(`Welcome ` + Name));
+
+            }
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -14,7 +14,7 @@ else if (gender === " female") {
 } 
  
 else {
-            (alert(`Welcome `));
+            (alert(`Welcome `+ Name));
 
 }
 
